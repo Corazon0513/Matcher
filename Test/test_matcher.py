@@ -1,8 +1,7 @@
 # -*-coding:utf-8-*-
 import os
-import cv2 as cv
 
-from Matcher.matcher import Matcher
+from matcher import Matcher
 """
 用于检测广告元素是否正确显示。
 判断待测图片中是否存在模版图片。
